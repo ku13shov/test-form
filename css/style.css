@@ -124,6 +124,7 @@ body {
     border: none;
     border-bottom: 1px solid #f2f2f2;
     outline: none;
+    background-color: transparent;
 }
 
 .reg-form__select {
@@ -137,6 +138,7 @@ body {
     line-height: 16px;
     color: #111;
     padding-bottom: 4px;
+    background-color: transparent;
 }
 
 .reg-form__select-box {
@@ -247,5 +249,16 @@ body {
 }
 
 @media (max-width: 510px) {
-    
+    .reg-form__wrapper {
+        padding: 30px 15px 30px;
+    }
+    .reg-form__titlebox {
+        width: 60px;
+    }
+    .reg-form__title {
+        font-size: 30px;
+        line-height: 40px;
+        bottom: 50px;
+        right: -17px;
+    }
 }
