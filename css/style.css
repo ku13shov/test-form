@@ -248,10 +248,11 @@ body {
 @media (max-width: 510px) {
     .reg-form__wrapper {
         padding: 30px 15px 30px;
-        width: 255px;
+        width: 100%;
+        text-align: center;
     }
     .reg-form__titlebox {
-        width: 50px;
+        width: 60px;
     }
     .reg-form__title {
         font-size: 30px;
@@ -263,7 +264,12 @@ body {
     .reg-form__select,
     .reg-form__box,
     .reg-form__select-box {
-        width: 220px;
+        width: 230px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .reg-form__box + .reg-form__box {
+        margin: 0 auto;
     }
     .day-select {
         width: 40px;
@@ -273,5 +279,8 @@ body {
     }
     .year-select {
         width: 60px;
+    }
+    .reg-form__radio-box {
+        justify-content: center;
     }
 }
