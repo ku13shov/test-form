@@ -268,6 +268,9 @@ body {
     .day-select {
         width: 40px;
     }
+    .month-select {
+        width: 90px;
+    }
     .year-select {
         width: 60px;
     }
