@@ -228,13 +228,14 @@ body {
     }
     .reg-form__line {
         display: block;
-        margin-bottom: 16px;
+        margin-bottom: 0;
     }
     .reg-form__box {
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
     .reg-form__box + .reg-form__box {
         margin-left: 0;
+        margin-bottom: 10px;
     }
     .last-line {
         margin-top: 40px;
@@ -271,6 +272,12 @@ body {
     .reg-form__box + .reg-form__box {
         margin: 0 auto;
     }
+    .reg-form__box {
+        margin-bottom: 10px;
+    }
+    .reg-form__box + .reg-form__box {
+        margin-bottom: 10px;
+    }
     .day-select {
         width: 40px;
     }
@@ -282,5 +289,8 @@ body {
     }
     .reg-form__radio-box {
         justify-content: center;
+    }
+    .last-line {
+        margin-top: 30px;
     }
 }
